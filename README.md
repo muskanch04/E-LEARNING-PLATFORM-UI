@@ -1,5 +1,17 @@
 # E-LEARNING-PLATFORM-UI
 
+*COMPANY* : CODTECH IT SOLUTIONS
+
+*NAME* : MUSKAN CHOUDHARY
+
+*INTERN ID* : CT06DF2704
+
+*DOMAIN* : FRONTEND WEB DEVELOPMENT
+
+*DURATION* : 6 WEEK
+
+*MENTOR* : NEELA SANTHOSH KUMAR 
+
 # 🎓 **EduLearn - Modern E-Learning Platform**
 
 ## 📘 **Project Overview**
