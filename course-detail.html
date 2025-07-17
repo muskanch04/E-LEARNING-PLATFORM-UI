@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Mastery - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+                <li><a href="login.html" class="nav-link login-btn">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Course Hero -->
+    <section class="course-hero">
+        <div class="container">
+            <div class="course-hero-content">
+                <div class="course-info">
+                    <div class="breadcrumb">
+                        <a href="index.html">Home</a>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="courses.html">Courses</a>
+                        <i class="fas fa-chevron-right"></i>
+                        <span>JavaScript Mastery</span>
+                    </div>
+                    <h1>Complete JavaScript Mastery</h1>
+                    <p class="course-subtitle">Learn JavaScript from basics to advanced concepts with hands-on projects and real-world applications</p>
+                    
+                    <div class="course-meta">
+                        <div class="meta-item">
+                            <i class="fas fa-star"></i>
+                            <span>4.8 (2,450 reviews)</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-users"></i>
+                            <span>12,450 students</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-clock"></i>
+                            <span>40 hours</span>
+                        </div>
+                        <div class="meta-item">
+                            <i class="fas fa-globe"></i>
+                            <span>English</span>
+                        </div>
+                    </div>
+
+                    <div class="instructor-info">
+                        <img src="1.jpeg" alt="Instructor" class="instructor-avatar">
+                        <div>
+                            <h4>Vineet Pandey</h4>
+                            <p>Senior JavaScript Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-preview">
+                    <div class="video-container">
+                        <video controls poster="1.jpeg">
+                            <source src="#" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="video-overlay">
+                            <button class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="course-card-info">
+                        <div class="price-section">
+                            <span class="current-price">₹490</span>
+                            <span class="original-price">₹990</span>
+                            <span class="discount">50% OFF</span>
+                        </div>
+                        
+                        <button class="btn btn-primary btn-large enroll-btn">
+                            <i class="fas fa-shopping-cart"></i>
+                            Enroll Now
+                        </button>
+                        
+                        <div class="course-includes">
+                            <h4>This course includes:</h4>
+                            <ul>
+                                <li><i class="fas fa-video"></i> 40 hours on-demand video</li>
+                                <li><i class="fas fa-file-alt"></i> 15 articles</li>
+                                <li><i class="fas fa-download"></i> 25 downloadable resources</li>
+                                <li><i class="fas fa-infinity"></i> Full lifetime access</li>
+                                <li><i class="fas fa-mobile-alt"></i> Access on mobile and TV</li>
+                                <li><i class="fas fa-certificate"></i> Certificate of completion</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Content -->
+    <section class="course-content">
+        <div class="container">
+            <div class="content-tabs">
+                <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="curriculum">Curriculum</button>
+                <button class="tab-btn" data-tab="instructor">Instructor</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+
+            <div class="tab-content">
+                <div class="tab-panel active" id="overview">
+                    <div class="overview-content">
+                        <h3>What you'll learn</h3>
+                        <div class="learning-objectives">
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Master JavaScript fundamentals and advanced concepts</span>
+                            </div>
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Build interactive web applications from scratch</span>
+                            </div>
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Understand ES6+ features and modern JavaScript</span>
+                            </div>
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Work with APIs and asynchronous programming</span>
+                            </div>
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Debug and optimize JavaScript code effectively</span>
+                            </div>
+                            <div class="objective-item">
+                                <i class="fas fa-check"></i>
+                                <span>Build real-world projects for your portfolio</span>
+                            </div>
+                        </div>
+
+                        <h3>Course Description</h3>
+                        <p>This comprehensive JavaScript course is designed to take you from a complete beginner to an advanced JavaScript developer. You'll learn everything you need to know about JavaScript programming, from basic syntax to advanced concepts like closures, prototypes, and asynchronous programming.</p>
+                        
+                        <p>The course includes hands-on projects that will help you build a strong portfolio and gain practical experience. You'll create interactive web applications, work with APIs, and learn modern JavaScript frameworks and libraries.</p>
+
+                        <h3>Requirements</h3>
+                        <ul class="requirements-list">
+                            <li>Basic understanding of HTML and CSS</li>
+                            <li>A computer with internet connection</li>
+                            <li>Willingness to learn and practice</li>
+                            <li>No prior JavaScript experience required</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="curriculum">
+                    <div class="curriculum-content">
+                        <div class="curriculum-stats">
+                            <span>8 sections • 45 lectures • 40h 30m total length</span>
+                        </div>
+                        
+                        <div class="curriculum-sections">
+                            <div class="curriculum-section">
+                                <div class="section-header">
+                                    <h4>
+                                        <i class="fas fa-chevron-down"></i>
+                                        Section 1: JavaScript Fundamentals
+                                    </h4>
+                                    <span>6 lectures • 4h 30m</span>
+                                </div>
+                                <div class="section-content">
+                                    <div class="lecture-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Introduction to JavaScript</span>
+                                        <span class="lecture-duration">15:30</span>
+                                    </div>
+                                    <div class="lecture-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Variables and Data Types</span>
+                                        <span class="lecture-duration">25:45</span>
+                                    </div>
+                                    <div class="lecture-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Operators and Expressions</span>
+                                        <span class="lecture-duration">20:15</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curriculum-section">
+                                <div class="section-header">
+                                    <h4>
+                                        <i class="fas fa-chevron-down"></i>
+                                        Section 2: Control Structures
+                                    </h4>
+                                    <span>5 lectures • 3h 45m</span>
+                                </div>
+                                <div class="section-content">
+                                    <div class="lecture-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Conditional Statements</span>
+                                        <span class="lecture-duration">18:20</span>
+                                    </div>
+                                    <div class="lecture-item">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>Loops and Iteration</span>
+                                        <span class="lecture-duration">22:30</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="curriculum-section">
+                                <div class="section-header">
+                                    <h4>
+                                        <i class="fas fa-chevron-down"></i>
+                                        Section 3: Functions and Scope
+                                    </h4>
+                                    <span>7 lectures • 5h 20m</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="instructor">
+                    <div class="instructor-content">
+                        <div class="instructor-profile">
+                            <img src="1.jpeg" alt="Vineet Pandey" class="instructor-image">
+                            <div class="instructor-details">
+                                <h3>Vineet Pandey</h3>
+                                <p class="instructor-title">Senior JavaScript Developer & Instructor</p>
+                                <div class="instructor-stats">
+                                    <div class="stat">
+                                        <i class="fas fa-star"></i>
+                                        <span>4.9 Instructor Rating</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-users"></i>
+                                        <span>50,000+ Students</span>
+                                    </div>
+                                    <div class="stat">
+                                        <i class="fas fa-play-circle"></i>
+                                        <span>15 Courses</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructor-bio">
+                            <p>Vineet Pandey is a seasoned JavaScript developer with over 10 years of experience in web development. He has worked with major tech companies and has been teaching programming for the past 5 years.</p>
+                            <p>His expertise includes modern JavaScript frameworks, Node.js, and full-stack development. Vineet is passionate about making complex programming concepts easy to understand for beginners.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="reviews">
+                    <div class="reviews-content">
+                        <div class="reviews-summary">
+                            <div class="rating-overview">
+                                <div class="overall-rating">
+                                    <span class="rating-number">4.8</span>
+                                    <div class="stars">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                    <span class="rating-count">2,450 reviews</span>
+                                </div>
+                                <div class="rating-breakdown">
+                                    <div class="rating-bar">
+                                        <span>5 stars</span>
+                                        <div class="bar">
+                                            <div class="fill" style="width: 75%"></div>
+                                        </div>
+                                        <span>75%</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>4 stars</span>
+                                        <div class="bar">
+                                            <div class="fill" style="width: 20%"></div>
+                                        </div>
+                                        <span>20%</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>3 stars</span>
+                                        <div class="bar">
+                                            <div class="fill" style="width: 3%"></div>
+                                        </div>
+                                        <span>3%</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>2 stars</span>
+                                        <div class="bar">
+                                            <div class="fill" style="width: 1%"></div>
+                                        </div>
+                                        <span>1%</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>1 star</span>
+                                        <div class="bar">
+                                            <div class="fill" style="width: 1%"></div>
+                                        </div>
+                                        <span>1%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-list">
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <img src="/placeholder.svg?height=40&width=40" alt="Student" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Ajay Kumar</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="review-date">2 weeks ago</span>
+                                    </div>
+                                </div>
+                                <p class="review-text">Excellent course! John explains everything clearly and the projects are really helpful for understanding the concepts. Highly recommended for anyone wanting to learn JavaScript.</p>
+                            </div>
+
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <img src="/placeholder.svg?height=40&width=40" alt="Student" class="reviewer-avatar">
+                                    <div class="reviewer-info">
+                                        <h4>Manju Devi</h4>
+                                        <div class="review-rating">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                        </div>
+                                        <span class="review-date">1 month ago</span>
+                                    </div>
+                                </div>
+                                <p class="review-text">Great course structure and content. The hands-on projects really helped me understand JavaScript better. Worth every penny!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="course-detail.js"></script>
+</body>
+</html>

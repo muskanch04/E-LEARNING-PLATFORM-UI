@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="dashboard.html" class="nav-link">Dashboard</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+                <li><a href="login.html" class="nav-link login-btn">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Learn Without <span class="highlight">Limits</span>
+                </h1>
+                <p class="hero-description">
+                    Discover thousands of courses from expert instructors and advance your career with our comprehensive e-learning platform.
+                </p>
+                <div class="hero-buttons">
+                    <a href="courses.html" class="btn btn-primary">
+                        <i class="fas fa-play"></i>
+                        Start Learning
+                    </a>
+                    <a href="#features" class="btn btn-secondary">
+                        <i class="fas fa-info-circle"></i>
+                        Learn More
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">50K+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Courses</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">100+</span>
+                        <span class="stat-label">Instructors</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card card-1">
+                    <i class="fas fa-code"></i>
+                    <span>Programming</span>
+                </div>
+                <div class="floating-card card-2">
+                    <i class="fas fa-palette"></i>
+                    <span>Design</span>
+                </div>
+                <div class="floating-card card-3">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Business</span>
+                </div>
+                <div class="hero-illustration">
+                    <div class="illustration-bg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose EduLearn?</h2>
+                <p>Experience the future of online learning with our innovative features</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>HD Video Lessons</h3>
+                    <p>Learn with crystal-clear video content from industry experts</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Progress Tracking</h3>
+                    <p>Monitor your learning journey with detailed analytics and insights</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Certificates</h3>
+                    <p>Earn recognized certificates upon course completion</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community</h3>
+                    <p>Connect with fellow learners and instructors worldwide</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Learning</h3>
+                    <p>Learn anywhere, anytime with our responsive platform</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+                    <h3>Lifetime Access</h3>
+                    <p>Get unlimited access to course materials forever</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Courses</h2>
+                <p>Discover our most popular and highly-rated courses</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="1.jpeg" alt="JavaScript Course">
+                        <div class="course-overlay">
+                            <a href="course-detail.html" class="btn btn-primary">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">Programming</span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i>
+                                4.8
+                            </span>
+                        </div>
+                        <h3>Complete JavaScript Mastery</h3>
+                        <p>Learn JavaScript from basics to advanced concepts with hands-on projects</p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="current-price">₹490</span>
+                                <span class="original-price">₹990</span>
+                            </div>
+                            <div class="course-students">
+                                <i class="fas fa-users"></i>
+                                12,450 students
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="2.jpeg" alt="UI/UX Design Course">
+                        <div class="course-overlay">
+                            <a href="course-detail.html" class="btn btn-primary">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">Design</span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i>
+                                4.9
+                            </span>
+                        </div>
+                        <h3>UI/UX Design Fundamentals</h3>
+                        <p>Master the art of user interface and experience design</p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="current-price">₹390</span>
+                                <span class="original-price">₹790</span>
+                            </div>
+                            <div class="course-students">
+                                <i class="fas fa-users"></i>
+                                8,230 students
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="3.jpeg" alt="Digital Marketing Course">
+                        <div class="course-overlay">
+                            <a href="course-detail.html" class="btn btn-primary">View Course</a>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-meta">
+                            <span class="course-category">Marketing</span>
+                            <span class="course-rating">
+                                <i class="fas fa-star"></i>
+                                4.7
+                            </span>
+                        </div>
+                        <h3>Digital Marketing Mastery</h3>
+                        <p>Learn SEO, social media marketing, and online advertising strategies</p>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="current-price">₹590</span>
+                                <span class="original-price">₹1190</span>
+                            </div>
+                            <div class="course-students">
+                                <i class="fas fa-users"></i>
+                                15,670 students
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="courses.html" class="btn btn-outline">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Stay Updated</h2>
+                <p>Get the latest courses and learning tips delivered to your inbox</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

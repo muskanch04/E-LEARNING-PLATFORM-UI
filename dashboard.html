@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="courses.html" class="nav-link">Courses</a></li>
+                <li><a href="dashboard.html" class="nav-link active">Dashboard</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+                <li><a href="login.html" class="nav-link login-btn">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dashboard Header -->
+    <section class="dashboard-header">
+        <div class="container">
+            <div class="dashboard-welcome">
+                <h1>Welcome back, John!</h1>
+                <p>Continue your learning journey</p>
+            </div>
+            <div class="dashboard-stats">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">5</span>
+                        <span class="stat-label">Enrolled Courses</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Completed</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">45h</span>
+                        <span class="stat-label">Learning Time</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="stat-info">
+                        <span class="stat-number">3</span>
+                        <span class="stat-label">Certificates</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dashboard Content -->
+    <section class="dashboard-content">
+        <div class="container">
+            <div class="dashboard-grid">
+                <!-- Continue Learning -->
+                <div class="dashboard-section">
+                    <div class="section-header">
+                        <h2>Continue Learning</h2>
+                        <a href="courses.html" class="view-all">View All</a>
+                    </div>
+                    <div class="continue-learning">
+                        <div class="learning-card">
+                            <div class="course-thumbnail">
+                                <img src="1.jpeg" alt="JavaScript Course">
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="course-info">
+                                <h3>Complete JavaScript Mastery</h3>
+                                <p>Section 4: Advanced Functions</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 65%"></div>
+                                </div>
+                                <div class="progress-info">
+                                    <span>65% Complete</span>
+                                    <span>12 of 18 lessons</span>
+                                </div>
+                            </div>
+                            <button class="continue-btn">Continue</button>
+                        </div>
+
+                        <div class="learning-card">
+                            <div class="course-thumbnail">
+                                <img src="2.jpeg" alt="UI/UX Course">
+                                <div class="play-overlay">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                            </div>
+                            <div class="course-info">
+                                <h3>UI/UX Design Fundamentals</h3>
+                                <p>Section 2: Design Principles</p>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 30%"></div>
+                                </div>
+                                <div class="progress-info">
+                                    <span>30% Complete</span>
+                                    <span>5 of 16 lessons</span>
+                                </div>
+                            </div>
+                            <button class="continue-btn">Continue</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Learning Progress -->
+                <div class="dashboard-section">
+                    <div class="section-header">
+                        <h2>Learning Progress</h2>
+                        <select class="time-filter">
+                            <option>This Week</option>
+                            <option>This Month</option>
+                            <option>This Year</option>
+                        </select>
+                    </div>
+                    <div class="progress-chart">
+                        <canvas id="progressChart" width="400" height="200"></canvas>
+                    </div>
+                    <div class="progress-summary">
+                        <div class="summary-item">
+                            <span class="summary-label">This Week</span>
+                            <span class="summary-value">8.5 hours</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="summary-label">Average Daily</span>
+                            <span class="summary-value">1.2 hours</span>
+                        </div>
+                        <div class="summary-item">
+                            <span class="summary-label">Streak</span>
+                            <span class="summary-value">5 days</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recent Achievements -->
+                <div class="dashboard-section">
+                    <div class="section-header">
+                        <h2>Recent Achievements</h2>
+                    </div>
+                    <div class="achievements">
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Course Completed</h4>
+                                <p>Finished "React Fundamentals"</p>
+                                <span class="achievement-date">2 days ago</span>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>5-Day Streak</h4>
+                                <p>Learned for 5 consecutive days</p>
+                                <span class="achievement-date">Today</span>
+                            </div>
+                        </div>
+                        <div class="achievement-item">
+                            <div class="achievement-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="achievement-info">
+                                <h4>Quiz Master</h4>
+                                <p>Scored 100% on JavaScript quiz</p>
+                                <span class="achievement-date">1 week ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recommended Courses -->
+                <div class="dashboard-section">
+                    <div class="section-header">
+                        <h2>Recommended for You</h2>
+                        <a href="courses.html" class="view-all">View All</a>
+                    </div>
+                    <div class="recommended-courses">
+                        <div class="mini-course-card">
+                            <img src="7.jpeg" alt="Node.js Course">
+                            <div class="mini-course-info">
+                                <h4>Node.js Complete Guide</h4>
+                                <div class="mini-course-meta">
+                                    <span class="rating">
+                                        <i class="fas fa-star"></i>
+                                        4.7
+                                    </span>
+                                    <span class="price">₹390</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mini-course-card">
+                            <img src="4.jpeg" alt="Python Course">
+                            <div class="mini-course-info">
+                                <h4>Python for Beginners</h4>
+                                <div class="mini-course-meta">
+                                    <span class="rating">
+                                        <i class="fas fa-star"></i>
+                                        4.9
+                                    </span>
+                                    <span class="price">₹290</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mini-course-card">
+                            <img src="3.jpeg" alt="CSS Course">
+                            <div class="mini-course-info">
+                                <h4>Advanced CSS & Sass</h4>
+                                <div class="mini-course-meta">
+                                    <span class="rating">
+                                        <i class="fas fa-star"></i>
+                                        4.8
+                                    </span>
+                                    <span class="price">₹350</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Calendar -->
+                <div class="dashboard-section">
+                    <div class="section-header">
+                        <h2>Learning Calendar</h2>
+                    </div>
+                    <div class="calendar-widget">
+                        <div class="calendar-header">
+                            <button class="calendar-nav" id="prevMonth">
+                                <i class="fas fa-chevron-left"></i>
+                            </button>
+                            <h3 id="currentMonth">January 2024</h3>
+                            <button class="calendar-nav" id="nextMonth">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                        <div class="calendar-grid" id="calendarGrid">
+                            <!-- Calendar will be generated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="profile.html">Profile</a></li>
+                        <li><a href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Programming</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Marketing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="dashboard.js"></script>
+</body>
+</html>
