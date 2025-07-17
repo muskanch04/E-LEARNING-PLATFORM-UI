@@ -106,3 +106,14 @@ Embracing modern, minimalist design with:
 **EduLearn** demonstrates best practices in modern web development while delivering a visually engaging and fully functional learning platform. It merges technical excellence with thoughtful design to create a truly impactful e-learning solution.
 
 ## 💻	OUTPUT
+
+![Image](https://github.com/user-attachments/assets/330ecbdf-06e0-42bc-8962-62c715c3799f)
+![Image](https://github.com/user-attachments/assets/2ac85a1b-9be7-4ada-9e20-537ba10ebb35)
+![Image](https://github.com/user-attachments/assets/91f4ef41-4e1a-4cb6-9238-a2a2ff740108)
+![Image](https://github.com/user-attachments/assets/a44a15e7-9e80-415a-9b18-b810d5b53a17)
+![Image](https://github.com/user-attachments/assets/36131600-027d-4635-ac2b-3b39e2c99d57)
+![Image](https://github.com/user-attachments/assets/cbdf7a6e-a7db-4bc7-8878-5ba34be0e8e1)
+![Image](https://github.com/user-attachments/assets/9515f734-8051-4ec6-a982-7970969da943)
+![Image](https://github.com/user-attachments/assets/3b5d33fa-9f4c-4207-b065-ad480c7d0d88)
+![Image](https://github.com/user-attachments/assets/95c5eb89-6978-4f43-8041-419632436911)
+![Image](https://github.com/user-attachments/assets/acda2625-a3ce-4b19-8caf-11a086273909)
